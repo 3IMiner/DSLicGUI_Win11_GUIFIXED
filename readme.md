@@ -1,6 +1,7 @@
 # DSLicGUI_Win11_GUIFIXED
 
 解决 Windows 10 1903 及更高版本 / Windows 11 上 DSLicGUI（"许可证管理工具"）无法打开的问题。
+本文修改对象以2016 DS LICENSE SERVER所修改
 
 ## 问题原因
 
