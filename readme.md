@@ -24,7 +24,7 @@ AdminMain.initializeUI
 因为是操作系统在手写回调里击杀，JVM 的崩溃处理器来不及运行 —— 没有 Java 异常栈、也没有 `hs_err_pid*.log`。表现有两种（同一个死点）：约 4 秒内进程消失；或者挂住不返回，窗口永远不来。
 
 
-### 替换 `jre\lib\rt.jar` —— 解决"窗口打不开"
+### 替换 `jre\lib\rt.jar`
 
 只改 JRE 里一个类的 6 个字节：`sun/awt/windows/WComponentPeer.class`
 
